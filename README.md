@@ -9,4 +9,8 @@ En el programa se lleva un registro de los vehiculos y su tipo registrados dentr
 ## Correcciones
 Se agregó un diagrama de clases,
 Se agregaron clases,
-Se separó el código en archivos ".h",
+Se separó el código en archivos ".h"
+
+Se separaron clases contenidad en un mismo archivo .h,
+Se modificaron y renombraron clases, se modifico y reformateo UML,
+Se actualizo código main
