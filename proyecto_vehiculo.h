@@ -51,7 +51,11 @@ class Vehiculo {
             cout << "marca: " << marca << endl;
             cout << "modelo: " << modelo << endl;
             cout << "kilómetros recorridos: " << km_recorridos << " km" << endl;
-    }
+        }
+        //métodos para polimorfismo
+        virtual void print() = 0;
+        virtual void restock(float) = 0;
+        virtual void stock_loss(float) = 0;
 };
 
 #endif VEHICULO
